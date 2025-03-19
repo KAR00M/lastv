@@ -41,7 +41,7 @@ class _NurseDetailsPageState extends State<NurseDetailsPage> {
       lastDate: DateTime(2030),
     );
     if (pickedDate != null) {
-      // ✅ Check if it's null before assigning
+      
       setState(() {
         selectedDate = pickedDate;
       });
